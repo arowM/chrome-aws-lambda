@@ -172,7 +172,7 @@ To compile your own version of Chromium check the [Ansible playbook instructions
 The following set of (Linux) commands will create a well-structured layer of this package alongside `puppeteer-core`:
 
 ```shell
-git clone --depth=1 https://github.com/alixaxel/chrome-aws-lambda.git && \
+git clone --depth=1 https://github.com/arowM/chrome-aws-lambda.git -b v2.1.1-patched && \
 cd chrome-aws-lambda && \
 make chrome_aws_lambda.zip
 ```
